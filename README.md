@@ -1,4 +1,4 @@
-# CS360
+
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 The primary purpose of my mobile app 'Weight Tracker' is to help users keep track of their health habits and achieve their desired weight goals.  The app features a database to store usernames and passwords, daily weight values with associated dates, and goal weight values.  It provides functionality to set desired goal weights and input daily weight values which can be viewed later.  Additional features allow users to update and delete entries from the database, as well as receive weight goal achievement notifications via SMS.
 
