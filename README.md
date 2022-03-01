@@ -1,19 +1,19 @@
-![androidapp1](https://user-images.githubusercontent.com/82340486/156205360-04812d1a-2916-4d47-9187-9d1b957c976a.jpg)
+![androidapp1](https://user-images.githubusercontent.com/82340486/156205802-2115d998-10c8-4e06-9e38-5ce255269204.jpg)
 
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 The primary purpose of my mobile app 'Weight Tracker' is to help users keep track of their health habits and achieve their desired weight goals.  The app features a database to store usernames and passwords, daily weight values with associated dates, and goal weight values.  It provides functionality to set desired goal weights and input daily weight values which can be viewed later.  Additional features allow users to update and delete entries from the database, as well as receive weight goal achievement notifications via SMS.
 
-![androidapp2](https://user-images.githubusercontent.com/82340486/156205387-b3b5eb68-d279-44e1-bc2f-eb2030f281c5.jpg)
+![androidapp2](https://user-images.githubusercontent.com/82340486/156205822-3b6497d8-917e-4017-9a28-f4cd34a8a541.jpg)
 
 # What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 My app features two activity screens.  Users first view the Login activity when the app is created.  The Login activity follows Android Guidelines and is organized in a very simple and understandable format.  If users make a mistake while logging in to the app, small, animated messages guide users through the process.  The Details activity displays all user weight information in an easy-to-read grid format.  Users can select an entry by touch and make edits (updates and deletes) on any row currently within the database.  They can also add new weight values to the database and adjust their goal weight value.  At the bottom of the scrollable Details activity, users can toggle Notifications (via SMS) on and off.  All functions use intuitive touch buttons organized neatly on the screen.  My goal was to create UI screens that were self-explanatory to use.   
 
-![androidapp3](https://user-images.githubusercontent.com/82340486/156205407-6ef290cc-fe61-4a52-8564-9a086a6399da.jpg)
+![androidapp3](https://user-images.githubusercontent.com/82340486/156205841-e9921e2d-df09-4369-903b-d3417c2f5191.jpg)
 
 # How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
 I was very intimidated getting started on this implementation.  After developing a ‘working’ UI (I wasn’t particularly sold on it until after my coding was done!), I took on this project one piece at a time.  I needed to clarify my understanding of Android’s Room database APIs and the best way to do this was by coding it.  I focused primarily on creating a database using these APIs before attaching this functionality to the UI.  I had to reconfigure many of the Views on my Details activity to display my data correctly.  Once I was happy, I moved on to CRUD functionality, which proved to be no easy task passing data between fragments and intents.  I will choose to use the divide and conquer approach for all large projects in the future.  By breaking this project into small, manageable goals, I was shocked with how quickly everything came together.    
 
-![androidapp4](https://user-images.githubusercontent.com/82340486/156205427-175cba89-03b9-47a3-b851-cd3827227961.jpg)
+![androidapp4](https://user-images.githubusercontent.com/82340486/156205856-671988b9-8982-4f1f-8371-6bc56c1dd134.jpg)
 
 # How did you test to ensure your code was functional? Why is this process important and what did it reveal?
 Given time constraints, I did not implement any automated testing, instead I performed static testing and tested all my features by hand as if I was a user of the app.  I discovered so many odd and peculiar bugs in this process, but thankfully Android Studio’s Run terminal was always there to have my back.  I learned more about mobile development concepts and APIs by making mistakes on my own.  Reading documentation is one thing, but seeing these features come to life brings a whole new level of understanding.  No one wants to launch a buggy app and lose potential customers.  Even as this app is ready for launch, I’d like to continue testing and make it as fail safe as possible all while adding new features.  
